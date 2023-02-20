@@ -1,0 +1,230 @@
+/* Fonts */
+@font-face {
+  font-family: cinzeldecorativebold;
+  src: url("./assets/fonts/CinzelDecorative.ttf");
+}
+@font-face {
+  font-family: futurabook;
+  src: url("./assets/fonts/FuturaBook.ttf");
+}
+@font-face {
+  font-family: timesnewroman;
+  src: url("./assets/fonts/TimesNewRoman.ttf");
+}
+@font-face {
+  font-family: inter;
+  src: url("./assets/fonts/Inter.ttf");
+}
+@font-face {
+  font-family: intersemi;
+  src: url("./assets/fonts/InterSemiBold.ttf");
+}
+@font-face {
+  font-family: greatvibes;
+  src: url("./assets/fonts/GreatVibes.ttf");
+}
+@font-face {
+  font-family: inriasans;
+  src: url("./assets/fonts/InriaSans.ttf");
+}
+
+/* Variables */
+:root {
+  --main-color: #97801c;
+  --light-color: #ba9f24;
+  --dark-color: hsl(6, 45%, 12%);
+  --white: #ffffff;
+  --black: #000000;
+  --largest: 60px;
+  --larger: 34px;
+  --large: 20px;
+  --medium: 16px;
+  --small: 14px;
+  --regular-font: inriasans;
+  --decorative-font: cinzeldecorativebold;
+  --main-heading-font: timesnewroman;
+  --heading-font: futurabook;
+  --menu-font: inter;
+  --menu-two-font: intersemi;
+  --special-font: greatvibes;
+}
+
+/* Scrollbar */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: #97801c90;
+}
+
+/* Global */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: auto !important;
+}
+
+.main-text {
+  font-family: var(--regular-font) !important;
+  color: var(--main-color) !important;
+}
+
+.heading-text {
+  font-family: var(--heading-font) !important;
+  color: var(--main-color) !important;
+}
+
+p {
+  white-space: break-spaces;
+}
+
+p span {
+  font-weight: 600;
+  color: var(--main-color) !important;
+}
+
+small {
+  font-family: var(--heading-font) !important;
+  font-size: var(--small) !important;
+  color: var(--main-color) !important;
+}
+
+hr {
+  opacity: 1 !important;
+  background-color: var(--main-color) !important;
+  max-width: 20%;
+}
+
+img,
+svg {
+  vertical-align: initial !important;
+}
+
+.ultimate-center{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-menu {
+  font-family: var(--menu-font) !important;
+  font-size: var(--meduim) !important;
+}
+
+.app-menu a {
+  color: var(--white) !important;
+  text-decoration: none;
+}
+
+.top-space {
+  margin-top: 70px;
+}
+
+.bottom-space {
+  margin-bottom: 50px;
+}
+
+.label {
+  font-family: var(--regular-font) !important;
+  font-size: var(--large) !important;
+  color: var(--main-color) !important;
+}
+
+.label-small {
+  font-family: var(--regular-font) !important;
+  font-size: var(--small) !important;
+  color: var(--main-color) !important;
+}
+
+.text {
+  font-family: var(--main-heading-font) !important;
+  font-size: var(--medium);
+  color: var(--main-color) !important;
+  font-variant: small-caps;
+  white-space: break-spaces;
+}
+
+.action-label {
+  font-family: var(--heading-font) !important;
+  font-size: var(--medium) !important;
+  color: var(--main-color) !important;
+}
+.action-icon {
+  font-size: var(--medium) !important;
+  color: var(--main-color) !important;
+}
+
+.circle-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: var(--main-color) !important;
+}
+
+.circle-icon.active,
+.circle-icon:hover {
+  background-color: var(--main-color) !important;
+  color: var(--white) !important;
+}
+
+.not-found {
+  color: var(--main-color) !important;
+}
+
+.img-cover {
+  max-width: 300px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-style {
+  border: 1px solid var(--main-color) !important;
+  border-radius: 0 !important;
+  color: var(--main-color) !important;
+  box-shadow: none !important;
+}
+.border-color {
+  border: 1px solid var(--main-color);
+}
+
+/* AntD Breadcrumb */
+.ant-breadcrumb-separator,
+.ant-breadcrumb a {
+  color: var(--main-color) !important;
+  text-decoration: none;
+}
+
+.ant-breadcrumb > span:last-child,
+.ant-breadcrumb > span:last-child a {
+  color: var(--main-color) !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title:after {
+  background-color: var(--main-color) !important;
+}
+
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title:after {
+  height: 4px !important;
+  border-radius: 2px !important;
+}

@@ -1,0 +1,21 @@
+.formInputPrimary input,
+.formInputPrimary textarea {
+  border-radius: 0;
+  color: var(--main-color);
+  width: 100%;
+}
+
+.formSelectInputContainer {
+  width: 100%;
+}
+
+.formSelectInputContainer .formSelectInputPrimary {
+  width: 100% !important;
+  color: var(--main-color);
+}
+
+.formSelectInputContainer .formSelectInputPrimary > div:first-child {
+  border-radius: 0px;
+  width: 100%;
+}
+

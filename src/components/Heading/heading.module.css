@@ -1,0 +1,29 @@
+.heading {
+  font-weight: 500 !important;
+  color: var(--main-color) !important;
+  text-transform: uppercase;
+  font-family: var(--heading-font);
+}
+
+.secondaryHeading {
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  color: var(--main-color) !important;
+  font-family: var(--main-heading-font);
+  padding-top: 2.5rem;
+}
+
+.subHeading {
+  color: var(--main-color) !important;
+  font-family: var(--regular-font);
+}
+
+.subHeadingSmall {
+  font-size: var(--medium) !important;
+}
+
+.head hr {
+  width: 20%;
+  background: var(--main-color);
+  opacity: 1;
+}

@@ -1,0 +1,28 @@
+.img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.closeBtn {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 20px;
+  font-size: 12px;
+  height: 20px;
+  color: var(--white);
+  background: var(--main-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.quantityBtn:focus,
+.quantityBtn:hover {
+  color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+}

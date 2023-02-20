@@ -1,0 +1,13 @@
+.deluxeText {
+  text-transform: capitalize;
+  font-family: var(--decorative-font) !important;
+  max-width: 400px;
+}
+
+.deluxeText h1 {
+  font-size: var(--largest) !important;
+  color: var(--main-color) !important;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+}

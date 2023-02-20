@@ -1,0 +1,57 @@
+.navbarBg {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.bgColor {
+  background-color: var(--main-color);
+}
+
+.navbarBg.scroll {
+  background-color: var(--main-color);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logo {
+  width: 100px;
+  transition: width 0.3s ease-in-out;
+}
+
+.logo.scroll {
+  width: 80px;
+  transition: width 0.3s ease-in-out;
+}
+
+.navItemOnlyColor,
+.navItemColor {
+  color: var(--white) !important;
+  cursor: pointer;
+  font-size: var(--medium);
+}
+
+.navItemColor:hover {
+  font-family: var(--menu-semi-font) !important;
+}
+
+.navItemHeading {
+  color: var(--white) !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: var(--medium);
+}
+
+.menu {
+  display: none !important;
+}
+
+.menu.active {
+  display: flex !important;
+}
+
+@media (min-width: 992px) {
+  .itemColor .navItemColor,
+  .itemColor .navItemOnlyColor i {
+    color: var(--main-color) !important;
+  }
+}

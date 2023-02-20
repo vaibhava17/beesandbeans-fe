@@ -1,0 +1,26 @@
+.card {
+  width: 165px;
+  height: 165px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card .stats {
+  font-size: var(--large);
+  color: var(--main-color);
+}
+
+.card hr {
+  width: 100px;
+  opacity: 1;
+  color: var(--main-color);
+  font-family: var(--regular-font);
+}
+
+.card .title {
+  font-size: var(--large);
+  color: var(--main-color);
+  text-transform: capitalize;
+  font-family: var(--regular-font);
+}

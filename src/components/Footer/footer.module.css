@@ -1,0 +1,35 @@
+.footer {
+  background: var(--main-color);
+}
+
+.bottomText {
+  color: var(--main-color);
+  font-size: var(--small);
+}
+
+.footerItem {
+  color: var(--white) !important;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.footerItem:hover {
+  font-family: var(--menu-font-semi) !important;
+}
+
+.brandLinks {
+  width: 40px;
+  height: 40px;
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--large);
+  color: var(--main-color);
+}
+
+.brandLinks:hover {
+  background: var(--main-color);
+  border: 1px solid var(--white);
+  color: var(--white);
+}

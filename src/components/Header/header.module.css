@@ -1,0 +1,24 @@
+.text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white) !important;
+  z-index: 1;
+}
+
+.textHead{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white) !important;
+  font-family: var(--main-heading-font);
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: 500 !important;
+}
+
+.image {
+  filter: brightness(0.5);
+  object-fit: cover;
+  height: 99vh;
+}

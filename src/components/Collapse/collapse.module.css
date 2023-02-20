@@ -1,0 +1,28 @@
+.header {
+  color: var(--main-color);
+  font-family: var(--regular-font);
+  font-size: var(--large) !important;
+}
+
+.icon{
+  color: var(--main-color);
+  font-size: var(--large) !important;
+}
+
+.question{
+  font-family: var(--main-heading-font) !important;
+  font-variant: small-caps;
+  margin-bottom: 0;
+  color: var(--main-color);
+  font-size: var(--large)!important;
+}
+
+.answer{
+  font-family: var(--regular-font) !important;
+  font-size: var(--medium)!important;
+  color: var(--main-color);
+}
+
+.panel{
+  border-bottom: 1px solid var(--main-color) !important;
+}
